@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(font.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.contenu {
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+}
+
+.eva {
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;
+}
+
+.connexion_form {
+    padding: 20px 40px;
+}
+
+.connexion_form .font {
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+}
+
+.connexion_form input {
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.connexion_form .font2 {
+    margin-top: 30px;
+}
+
+.connexion_form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: blue;
+    border-radius: 3px;
+    border: 1px solid blue;
+    transition: .5s;
+}
+
+.connexion_form button:hover {
+    background: #586BD6;
+}
+
+.connexion_form #erreur_email,
+.connexion_form #passe_erreur {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: red;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 1px solid red;
+    display: none;
+}

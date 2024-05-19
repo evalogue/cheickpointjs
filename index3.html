@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire de connexion</title>
+        <link rel="stylesheet" href="styles5.css">
+    </head>
+    <body>
+        <div class="contenu">
+            <h1 class="eva">Nom d'utilisateur</h1>
+            <form class="connexion_form" method="post" name="form" onsubmit="return validated()">
+                <div class="font">Email ou Téléphone</div>
+                <input type="text" name="email">
+                <div id="erreur_email">Veuillez remplir votre Email ou votre Téléphone</div>
+                <div class="font font2">Mot de passe</div>
+                <input type="password" name="password">
+                <div id="passe_erreur">Veuillez remplir votre Mot de passe</div>
+                <button type="submit">Connexion</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
